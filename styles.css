@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: hack;  
+}
+
+body {
+    background-color: rgb(17, 127, 146);
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header h1 {
+    color: crimson;
+    text-align: center;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 200px;
+    color: white;
+}
+
+
