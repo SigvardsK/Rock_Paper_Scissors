@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(17, 127, 146);
+    background-color: #01003f;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 }
 
 header h1 {
-    color: crimson;
+    color: black;
     text-align: center;
 }
 
@@ -49,7 +49,7 @@ header h1 {
     right: -50px;
 }
 
-.results p {
+.result p {
     color: white;
     text-align: center;
     font-weight: bold;
@@ -63,7 +63,37 @@ header h1 {
 
 .choice {
     display: inline-block;
-
+    padding: 10px;
+    margin: 0 20px;
 }
+
+#r img {
+    width: 120px;
+    height: 120px;
+}
+
+#p img {
+    width: 120px;
+    height: 120px;
+}
+
+#s img {
+    width: 120px;
+    height: 120px;
+}
+
+.choice:hover {
+    cursor: pointer;
+}
+
+#action-message {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
+
+
+
 
 
