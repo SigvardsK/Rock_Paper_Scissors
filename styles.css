@@ -67,6 +67,7 @@ header h1 {
     display: inline-block;
     padding: 10px;
     margin: 0 20px;
+    transition: all 0.3s ease;
 }
 
 #r img {
@@ -86,6 +87,7 @@ header h1 {
 
 .choice:hover {
     cursor: pointer;
+    background: #020079;
 }
 
 #action-message {
@@ -95,7 +97,19 @@ header h1 {
     font-size: 24px;
 }
 
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
 
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
 
+.grey-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
 
 
